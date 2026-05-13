@@ -18,6 +18,7 @@
   margin-bottom: var(--spacing-sm);
   position: relative;
   padding-bottom: var(--spacing-xs);
+  color: var(--color-primary); /* Brand Orange */
 }
 
 .section-title::after {
@@ -27,11 +28,11 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background-color: var(--color-accent);
+  background-color: var(--color-secondary); /* Brand Green */
 }
 
 .about-description {
-  color: var(--color-text-light);
+  color: var(--color-text);
   margin-bottom: var(--spacing-md);
   font-size: 1.1rem;
   line-height: 1.6;
@@ -39,12 +40,17 @@
 
 .about-services {
   margin-bottom: var(--spacing-md);
+  background-color: #fcfcfc;
+  padding: var(--spacing-sm);
+  border-left: 4px solid var(--color-secondary);
+  border-radius: 4px;
 }
 
 .about-services h3 {
   font-size: 1.25rem;
   margin-bottom: var(--spacing-xs);
-  color: var(--color-secondary);
+  color: var(--color-secondary); /* Brand Green - Much clearer */
+  font-weight: 700;
 }
 
 .about-services ul {
@@ -53,18 +59,19 @@
 }
 
 .about-services li {
-  padding: 4px 0;
-  color: var(--color-text-light);
+  padding: 6px 0;
+  color: var(--color-text);
   position: relative;
-  padding-left: 20px;
+  padding-left: 25px;
+  font-weight: 500;
 }
 
 .about-services li::before {
-  content: '✓';
+  content: '●';
   position: absolute;
   left: 0;
-  color: var(--color-accent);
-  font-weight: bold;
+  color: var(--color-primary); /* Brand Orange */
+  font-size: 0.8rem;
 }
 
 .about-stats {
@@ -79,20 +86,22 @@
 }
 
 .stat-value {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--color-accent);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--color-primary); /* Brand Orange */
 }
 
 .stat-label {
-  font-size: 0.8rem;
-  color: var(--color-text-light);
+  font-size: 0.85rem;
+  color: var(--color-gray);
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .about-values {
   padding-top: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
   border-top: 1px solid #eee;
 }
 
@@ -103,26 +112,29 @@
 }
 
 .value-card {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   padding: var(--spacing-md);
   border-radius: 8px;
-  transition: transform 0.3s ease;
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
 }
 
 .value-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 30px rgba(243, 112, 33, 0.1); /* Subtle orange shadow */
+  border-color: var(--color-primary);
 }
 
 .value-card h4 {
-  color: var(--color-secondary);
+  color: var(--color-primary); /* Brand Orange */
   margin-bottom: var(--spacing-xs);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .value-card p {
   color: var(--color-text-light);
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 

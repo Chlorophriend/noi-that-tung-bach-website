@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import { websiteContent } from '../data/content';
+import showroomImg from '../assets/showroom.jpg';
 
 const About: React.FC = () => {
   const { about } = websiteContent;
@@ -11,8 +12,8 @@ const About: React.FC = () => {
         <div className="about-container">
           <div className="about-image">
             <img 
-              src="https://images.unsplash.com/photo-1616486341351-70252447953f?auto=format&fit=crop&q=80&w=1000" 
-              alt="Interior Showroom" 
+              src={showroomImg} 
+              alt="Văn phòng tư vấn Nội thất Tùng Bách" 
             />
           </div>
           <div className="about-content">

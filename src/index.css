@@ -1,10 +1,11 @@
 :root {
   /* Colors */
-  --color-primary: #1a1a1a;
-  --color-secondary: #f5f5f5;
-  --color-accent: #c4a484; /* A soft gold/wood tone for interior design accent */
+  --color-primary: #F37021; /* Brand Orange */
+  --color-secondary: #008443; /* Brand Green (Pine Tree) */
+  --color-accent: #F37021; 
+  --color-gray: #6D6E71;
   --color-text: #333333;
-  --color-text-light: #666666;
+  --color-text-light: #4A4A4A;
   --color-white: #ffffff;
   --color-background: #ffffff;
 

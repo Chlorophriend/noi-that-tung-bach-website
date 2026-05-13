@@ -67,7 +67,6 @@ export const websiteContent = {
     description: "Nội Thất Tùng Bách được thành lập với sứ mệnh ban đầu là đáp ứng nhu cầu kiến tạo tổ ấm cho cư dân tại khu Nhà ở Xã hội Tùng Bách, Phương Liễu, Bắc Ninh. Chúng tôi không chỉ là đơn vị nội thất, mà là người đồng hành giúp bạn hiện thực hóa ngôi nhà mơ ước từ những bước đầu tiên.",
     stats: [
       { label: "Căn hộ tại CT1-CT4", value: "100+" },
-      { label: "Dự án hoàn thiện", value: "200+" },
       { label: "Năm kinh nghiệm", value: "10+" }
     ],
     values: [
