@@ -1,0 +1,123 @@
+.contact {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.contact .section-title {
+  color: var(--color-white);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: var(--spacing-lg);
+  align-items: start;
+}
+
+.info-items {
+  margin-top: var(--spacing-md);
+}
+
+.info-item {
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-sm);
+  opacity: 0.8;
+}
+
+.info-item.highlight {
+  color: var(--color-accent);
+  font-weight: 700;
+  opacity: 1;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-sm);
+}
+
+.form-input, .form-textarea {
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-white);
+  font-family: var(--font-main);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form-input:focus, .form-textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.privacy-text {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: var(--spacing-xs);
+}
+
+.submit-button {
+  padding: 1rem;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.submit-button:hover {
+  background-color: #b39374;
+}
+
+.submit-button.loading {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.status-message {
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: var(--spacing-xs);
+}
+
+.status-message.success {
+  background-color: rgba(40, 167, 69, 0.2);
+  color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.status-message.error {
+  background-color: rgba(220, 53, 69, 0.2);
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

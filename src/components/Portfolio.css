@@ -1,0 +1,98 @@
+.portfolio {
+  background-color: var(--color-secondary);
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.portfolio-header .section-title {
+  display: inline-block;
+}
+
+.portfolio-header .section-title::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-subtitle {
+  color: var(--color-text-light);
+  margin-top: var(--spacing-sm);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.portfolio-media {
+  position: relative;
+  aspect-ratio: 16/9; /* Standard widescreen for interior photos/videos */
+  overflow: hidden;
+}
+
+.portfolio-img, .portfolio-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: var(--transition-normal);
+}
+
+.portfolio-video {
+  cursor: pointer;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: var(--spacing-md);
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: var(--color-white);
+  transform: translateY(10px);
+  opacity: 0;
+  transition: var(--transition-normal);
+  pointer-events: none; /* Allows clicking video controls through overlay if needed */
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.portfolio-item:hover .portfolio-img {
+  transform: scale(1.05);
+}
+
+.portfolio-category {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-accent);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.portfolio-title {
+  font-size: 1.1rem;
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .portfolio-overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
