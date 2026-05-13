@@ -36,7 +36,7 @@ const ProjectDetail: React.FC = () => {
 
         {project.videoSrc && (
           <div className="project-video-section" style={{ marginBottom: '3rem' }}>
-            <h3 style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }}>Video thực tế</h3>
+            <h3 style={{ marginBottom: '1.5rem', color: 'var(--color-primary)' }}>Video thực tế</h3>
             <div className="project-video-container">
               {project.videoSrc.includes('youtube.com') || project.videoSrc.includes('youtu.be') ? (
                 <div className="video-responsive">
@@ -65,21 +65,24 @@ const ProjectDetail: React.FC = () => {
           </div>
         )}
 
-        <div className="project-gallery">
-          {project.gallery && project.gallery.length > 0 ? (
-            project.gallery.map((img, index) => (
-              <div key={index} className="gallery-item">
-                <img src={img} alt={`${project.title} ${index + 1}`} loading="lazy" />
+        <div className="project-gallery-section">
+          <h3 style={{ marginBottom: '1.5rem', color: 'var(--color-primary)' }}>Ảnh thực tế</h3>
+          <div className="project-gallery">
+            {project.gallery && project.gallery.length > 0 ? (
+              project.gallery.map((img, index) => (
+                <div key={index} className="gallery-item">
+                  <img src={img} alt={`${project.title} ${index + 1}`} loading="lazy" />
+                </div>
+              ))
+            ) : !project.videoSrc && (
+              <div className="gallery-placeholder">
+                <img src={project.image} alt={project.title} />
+                <p style={{ marginTop: '1rem', fontStyle: 'italic', opacity: 0.7 }}>
+                  Hình ảnh chi tiết đang được cập nhật...
+                </p>
               </div>
-            ))
-          ) : !project.videoSrc && (
-            <div className="gallery-placeholder">
-              <img src={project.image} alt={project.title} />
-              <p style={{ marginTop: '1rem', fontStyle: 'italic', opacity: 0.7 }}>
-                Hình ảnh chi tiết đang được cập nhật...
-              </p>
-            </div>
-          )}
+            )}
+          </div>
         </div>
 
         <div className="detail-actions">

@@ -99,7 +99,7 @@ export const websiteContent = {
         slug: "noxh-tung-bach-ct01-201",
         type: "image",
         title: "Dự án NOXH Tùng Bách CT01.201", 
-        category: "Thi công thực tế", 
+        category: "Căn hộ mẫu", 
         image: tb201_main,
         description: "Dự án thi công hoàn thiện căn hộ 201 tại tòa CT1 khu NOXH Tùng Bách với phong cách hiện đại, tối ưu công năng sử dụng.",
         gallery: [tb201_main, tb201_1, tb201_2, tb201_3, tb201_4],
@@ -110,7 +110,7 @@ export const websiteContent = {
         slug: "noxh-tung-bach-ct01-202",
         type: "image",
         title: "Dự án NOXH Tùng Bách CT01.202", 
-        category: "Thi công thực tế", 
+        category: "Căn hộ mẫu", 
         image: tb202_main,
         description: "Dự án thi công nội thất căn hộ 202 tòa CT1 Tùng Bách, tập trung vào sự ấm cúng và tinh tế cho gia đình.",
         gallery: [tb202_main, tb202_1, tb202_2, tb202_3]
