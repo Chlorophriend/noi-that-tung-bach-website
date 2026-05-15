@@ -64,7 +64,7 @@ export const websiteContent = {
   },
   about: {
     title: "Về Chúng Tôi",
-    description: "Nội Thất Tùng Bách được thành lập với sứ mệnh ban đầu là đáp ứng nhu cầu kiến tạo tổ ấm cho cư dân tại khu Nhà ở Xã hội Tùng Bách, Phương Liễu, Bắc Ninh. Chúng tôi không chỉ là đơn vị nội thất, mà là người đồng hành giúp bạn hiện thực hóa ngôi nhà mơ ước từ những bước đầu tiên.",
+    description: "Nội Thất Tùng Bách được thành lập với sứ mệnh ban đầu là đáp ứng nhu cầu kiến tạo tổ ấm cho cư dân tại khu NOXH Tùng Bách, Phương Liễu, Bắc Ninh. Chúng tôi không chỉ là đơn vị nội thất, mà là người đồng hành giúp bạn hiện thực hóa ngôi nhà mơ ước từ những bước đầu tiên.",
     stats: [
       { label: "Căn hộ tại CT1-CT4", value: "100+" },
       { label: "Năm kinh nghiệm", value: "10+" }
@@ -94,53 +94,53 @@ export const websiteContent = {
     title: "Căn Hộ Mẫu & Thực Tế",
     subtitle: "Khám phá các dự án thiết kế phối cảnh và thi công thực tế tiêu biểu.",
     projects: [
-      { 
-        id: 1, 
+      {
+        id: 1,
         slug: "noxh-tung-bach-ct01-201",
         type: "image",
-        title: "Dự án NOXH Tùng Bách CT01.201", 
-        category: "Căn hộ mẫu", 
+        title: "Dự án NOXH Tùng Bách CT01.201",
+        category: "Căn hộ mẫu",
         image: tb201_main,
         description: "Dự án thi công hoàn thiện căn hộ 201 tại tòa CT1 khu NOXH Tùng Bách với phong cách hiện đại, tối ưu công năng sử dụng.",
         gallery: [tb201_main, tb201_1, tb201_2, tb201_3, tb201_4],
         videoSrc: "https://www.youtube.com/embed/0Va4VudF4_o"
       },
-      { 
-        id: 2, 
+      {
+        id: 2,
         slug: "noxh-tung-bach-ct01-202",
         type: "image",
-        title: "Dự án NOXH Tùng Bách CT01.202", 
-        category: "Căn hộ mẫu", 
+        title: "Dự án NOXH Tùng Bách CT01.202",
+        category: "Căn hộ mẫu",
         image: tb202_main,
         description: "Dự án thi công nội thất căn hộ 202 tòa CT1 Tùng Bách, tập trung vào sự ấm cúng và tinh tế cho gia đình.",
         gallery: [tb202_main, tb202_1, tb202_2, tb202_3]
       },
-      { 
-        id: 3, 
+      {
+        id: 3,
         slug: "noxh-kinh-bac-toa-c-a",
         type: "image",
-        title: "Dự án NOXH Kinh Bắc - Căn A", 
-        category: "Căn hộ mẫu", 
+        title: "Dự án NOXH Kinh Bắc - Căn A",
+        category: "Căn hộ mẫu",
         image: kba_main,
         description: "Thiết kế phối cảnh căn hộ loại A tại tòa C khu NOXH Kinh Bắc với không gian mở rộng rãi.",
         gallery: [kba_main, kba_1, kba_2, kba_3, kba_4, kba_5]
       },
-      { 
-        id: 4, 
+      {
+        id: 4,
         slug: "noxh-kinh-bac-toa-c-b",
         type: "image",
-        title: "Dự án NOXH Kinh Bắc - Căn B", 
-        category: "Căn hộ mẫu", 
+        title: "Dự án NOXH Kinh Bắc - Căn B",
+        category: "Căn hộ mẫu",
         image: kbb_main,
         description: "Giải pháp thiết kế thông minh cho căn hộ loại B tòa C Kinh Bắc, đảm bảo đầy đủ tiện nghi.",
         gallery: [kbb_main, kbb_1, kbb_2, kbb_3, kbb_4, kbb_5, kbb_6]
       },
-      { 
-        id: 5, 
+      {
+        id: 5,
         slug: "noxh-kinh-bac-toa-c-c",
         type: "image",
-        title: "Dự án NOXH Kinh Bắc - Căn C", 
-        category: "Căn hộ mẫu", 
+        title: "Dự án NOXH Kinh Bắc - Căn C",
+        category: "Căn hộ mẫu",
         image: kbc_main,
         description: "Nội thất căn hộ loại C tòa C Kinh Bắc, sự kết hợp hoàn hảo giữa màu sắc và chất liệu.",
         gallery: [kbc_main, kbc_1, kbc_2, kbc_3, kbc_4, kbc_5, kbc_6]
