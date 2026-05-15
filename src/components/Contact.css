@@ -5,6 +5,11 @@
 
 .contact .section-title {
   color: var(--color-primary); /* Orange Title */
+  position: relative;
+}
+
+.contact .section-title::after {
+  display: none;
 }
 
 .contact-container {
