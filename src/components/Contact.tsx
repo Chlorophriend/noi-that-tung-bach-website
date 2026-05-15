@@ -51,6 +51,18 @@ const Contact: React.FC = () => {
             <p className="info-item">{contact.info.email}</p>
             <p className="info-item highlight">{contact.info.zalo}</p>
           </div>
+          <div className="contact-map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.4373685374526!2d106.1265882!3d21.1404618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135090013977759%3A0xc6822557929497e6!2zTuG7mWkgVGjhuqV0IFTDuW5nIELDoWNo!5e0!3m2!1svi!2svn!4v1715764000000!5m2!1svi!2svn" 
+              width="100%" 
+              height="300" 
+              style={{ border: 0, borderRadius: '8px' }} 
+              allowFullScreen={true} 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Google Maps Location"
+            ></iframe>
+          </div>
         </div>
         <div className="contact-form-container">
           <form className="contact-form" onSubmit={handleSubmit}>
