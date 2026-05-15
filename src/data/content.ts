@@ -87,7 +87,7 @@ export const websiteContent = {
       "Tư vấn thiết kế kiến trúc & nội thất",
       "Môi giới và hỗ trợ thủ tục căn hộ",
       "Xây dựng và cải tạo phần thô",
-      "Sản xuất và lắp đặt nội thất trọn gói từ A-Z"
+      "Sản xuất và lắp đặt nội thất từ A-Z"
     ]
   },
   portfolio: {
@@ -157,10 +157,10 @@ export const websiteContent = {
   contact: {
     title: "Liên Hệ Với Chúng Tôi",
     info: {
-      address: "Địa chỉ: Căn 01.07 - Toà nhà CT1 Khu NOXH Tùng Bách, Phường Phương Liễu, tỉnh Bắc Ninh",
-      phone: "Hotline: 0986.89.88.77 - 0912.86.68.10 - 0916.756.000",
+      address: "Địa chỉ: Căn 01.07 - Toà nhà CT1 Khu NOXH Tùng Bách, Phường Phương Liễu, Tỉnh Bắc Ninh",
+      phone: "Hotline: 098.689.8877 - 091.286.6810 - 091.675.6000",
       email: "Email: noithattungbachct1.107@gmail.com",
-      zalo: "Zalo: 0986.89.88.77"
+      zalo: "Zalo: 098.689.8877"
     },
     form: {
       namePlaceholder: "Họ và tên",
