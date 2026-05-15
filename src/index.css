@@ -11,8 +11,8 @@
   --brand-green: #008443; /* Keep as secondary accent if needed */
 
   /* Typography */
-  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-main: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -38,10 +38,12 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 5px);
 }
 
 body {
   font-family: var(--font-main);
+  font-weight: 200;
   color: var(--color-text);
   background-color: var(--color-background);
   line-height: 1.6;
