@@ -91,8 +91,8 @@ export const websiteContent = {
     ]
   },
   portfolio: {
-    title: "Căn Hộ Mẫu & Thực Tế",
-    subtitle: "Khám phá các dự án thiết kế phối cảnh và thi công thực tế tiêu biểu.",
+    title: "Căn Hộ Mẫu Thực Tế",
+    subtitle: "Khám phá các căn hộ mẫu và căn hộ đã hoàn thiện.",
     projects: [
       {
         id: 1,

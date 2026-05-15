@@ -27,9 +27,9 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 150px;
+  width: 120px;
   height: 3px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   /* Brand Green */
 }
 
@@ -51,8 +51,7 @@
 .about-services h3 {
   font-size: 1.25rem;
   margin-bottom: var(--spacing-xs);
-  color: var(--color-secondary);
-  /* Brand Green - Much clearer */
+  color: var(--color-primary);
   font-weight: 700;
 }
 
