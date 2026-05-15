@@ -92,7 +92,7 @@ export const websiteContent = {
   },
   portfolio: {
     title: "Căn Hộ Mẫu Thực Tế",
-    subtitle: "Khám phá các căn hộ mẫu và căn hộ đã hoàn thiện.",
+    subtitle: "Khám phá các căn hộ mẫu và căn hộ đã hoàn thiện do nội thất Tùng Bách thực hiện.",
     projects: [
       {
         id: 1,
@@ -101,7 +101,7 @@ export const websiteContent = {
         title: "Dự án NOXH Tùng Bách CT01.201",
         category: "Căn hộ mẫu",
         image: tb201_main,
-        description: "Dự án thi công hoàn thiện căn hộ 201 tại tòa CT1 khu NOXH Tùng Bách với phong cách hiện đại, tối ưu công năng sử dụng.",
+        description: "Căn hộ mẫu CT01 201 là căn góc tòa CT01, khách hàng có thể liên hệ cửa hàng để được tham quan trực tiếp",
         gallery: [tb201_main, tb201_1, tb201_2, tb201_3, tb201_4],
         videoSrc: "https://www.youtube.com/embed/0Va4VudF4_o"
       },
@@ -112,7 +112,7 @@ export const websiteContent = {
         title: "Dự án NOXH Tùng Bách CT01.202",
         category: "Căn hộ mẫu",
         image: tb202_main,
-        description: "Dự án thi công nội thất căn hộ 202 tòa CT1 Tùng Bách, tập trung vào sự ấm cúng và tinh tế cho gia đình.",
+        description: "Căn hộ mẫu CT01 202 là căn liền kề tòa CT01, khách hàng có thể liên hệ cửa hàng để được tham quan trực tiếp.",
         gallery: [tb202_main, tb202_1, tb202_2, tb202_3]
       },
       {
@@ -120,9 +120,9 @@ export const websiteContent = {
         slug: "noxh-kinh-bac-toa-c-a",
         type: "image",
         title: "Dự án NOXH Kinh Bắc - Căn A",
-        category: "Căn hộ mẫu",
+        category: "Căn hộ đã bàn giao",
         image: kba_main,
-        description: "Thiết kế phối cảnh căn hộ loại A tại tòa C khu NOXH Kinh Bắc với không gian mở rộng rãi.",
+        description: "Thiết kế căn hộ giấu tên tại tòa C khu NOXH Kinh Bắc với không gian mở rộng rãi.",
         gallery: [kba_main, kba_1, kba_2, kba_3, kba_4, kba_5]
       },
       {
@@ -130,9 +130,9 @@ export const websiteContent = {
         slug: "noxh-kinh-bac-toa-c-b",
         type: "image",
         title: "Dự án NOXH Kinh Bắc - Căn B",
-        category: "Căn hộ mẫu",
+        category: "Căn hộ đã bàn giao",
         image: kbb_main,
-        description: "Giải pháp thiết kế thông minh cho căn hộ loại B tòa C Kinh Bắc, đảm bảo đầy đủ tiện nghi.",
+        description: "Thiết kế căn hộ giấu tên tại tòa C khu NOXH Kinh Bắc đầy đủ tiện nghi.",
         gallery: [kbb_main, kbb_1, kbb_2, kbb_3, kbb_4, kbb_5, kbb_6]
       },
       {
@@ -140,9 +140,9 @@ export const websiteContent = {
         slug: "noxh-kinh-bac-toa-c-c",
         type: "image",
         title: "Dự án NOXH Kinh Bắc - Căn C",
-        category: "Căn hộ mẫu",
+        category: "Căn hộ đã bàn giao",
         image: kbc_main,
-        description: "Nội thất căn hộ loại C tòa C Kinh Bắc, sự kết hợp hoàn hảo giữa màu sắc và chất liệu.",
+        description: "Thiết kế căn hộ giấu tên tại tòa C khu NOXH Kinh Bắc.",
         gallery: [kbc_main, kbc_1, kbc_2, kbc_3, kbc_4, kbc_5, kbc_6]
       }
     ] as Project[]
@@ -158,7 +158,7 @@ export const websiteContent = {
     title: "Liên Hệ Với Chúng Tôi",
     info: {
       address: "Địa chỉ: Căn 01.07 - Toà nhà CT1 Khu NOXH Tùng Bách, Phường Phương Liễu, Tỉnh Bắc Ninh",
-      phone: "Hotline: 098.689.8877 - 091.286.6810 - 091.675.6000",
+      phone: "Hotline: 098.689.8877 (chị Hương) - 091.286.6810 (anh Dũng) - 091.675.6000 (anh Thuận)",
       email: "Email: noithattungbachct1.107@gmail.com",
       zalo: "Zalo: 098.689.8877"
     },
